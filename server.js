@@ -29,7 +29,7 @@ app.use(cors());
 const db=knex({
   client: 'pg',
   connection: {
-    host : '127.0.0.1',
+    host : 'postgresql-metric-09226',
     port : 5432,
     user : 'postgres',
     password : '29january',
